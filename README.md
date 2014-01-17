@@ -1,17 +1,21 @@
 rejs-fs
 =======
 
-### API
+check example for how to use it.
 
-	var fs = require("rejs-fs");
+#### yield* fs.stat(path)
 
-	fs.readFile()
-	fs.writeFile()
-	fs.appendFile()
+#### yield* fs.readFile(filename, [options])
 
-	fs.readJSON()
-	fs.writeJSON()
+#### yield* fs.readLink(path)
 
-	fs.mkdir()
+#### yield* fs.realpath(path, [cache])
 
+#### yield* fs.readdir(path)
+
+#### yield* fs.writeFile(filename, data, [options])
+
+#### yield* fs.appendFile(filename, data, [options])
+
+#### yield* fs.exists(path)
 
