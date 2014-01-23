@@ -31,6 +31,8 @@ spawn(function* () {
 	result = yield* fs.exists(path + "random");
 	assert(result === false);
 
+	console.log("Everything good!")
+
 }());
 
 
