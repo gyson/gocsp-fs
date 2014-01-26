@@ -19,4 +19,10 @@ check example for how to use it.
 
 #### yield* fs.exists(path)
 
+#### yield* fs.readJSON(path)
 
+#### yield* fs.writeJSON(path, value, replacer, space)
+
+#### todo
+
+	fs.mkdir()
