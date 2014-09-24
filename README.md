@@ -1,28 +1,14 @@
 gocsp-fs
 =======
 
-check examples for how to use it.
+Under development.
 
-#### yield fs.stat(path)
+## example
 
-#### yield fs.readFile(filename, [options])
+```js
+import { Channel, openRead, openWrite } from 'gocsp'
 
-#### yield fs.readLink(path)
-
-#### yield fs.realpath(path, [cache])
-
-#### yield fs.readdir(path)
-
-#### yield fs.writeFile(filename, data, [options])
-
-#### yield fs.appendFile(filename, data, [options])
-
-#### yield fs.exists(path)
-
-#### yield fs.readJSON(path)
-
-#### yield fs.writeJSON(path, value, replacer, space)
-
-#### todo
-
-	fs.mkdir()
+new Channel()
+	.pipe(openRead(path, options))
+	.pipe(openWrite(path2, options2))
+```

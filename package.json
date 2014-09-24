@@ -1,15 +1,11 @@
 {
   "name": "gocsp-fs",
 
-  "version": "0.0.1",
+  "version": "0.0.4",
 
   "description": "",
 
   "main": "./lib/fs.js",
-
-  "dependencies": {
-    "gocsp": "0.0.1"
-  },
 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
